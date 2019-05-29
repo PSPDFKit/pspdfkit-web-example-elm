@@ -1,0 +1,32 @@
+{
+  "name": "pspdfkit-web-example-elm",
+  "description": "PDF viewer web application built with PSPDFKit for Web and Elm",
+  "version": "2019.3.0",
+  "main": "index.js",
+  "keywords": [
+    "elm",
+    "pdf",
+    "viewer",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PSPDFKit/pspdfkit-web-example-elm.git"
+  },
+  "author": "PSPDFKit (https://pspdfkit.com)",
+  "homepage": "https://pspdfkit.com/web",
+  "license": "SEE LICENSE",
+  "readme": "https://pspdfkit.com/guides/web",
+  "dependencies": {},
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix6",
+    "elm-webpack-loader": "^5.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "pspdfkit": "https://customers.pspdfkit.com/npm/TRIAL-xbVViL2vkiQ3HfYhcstoiKgDx01i-5ovyMUo4CAdhaawyEppkyZJ5TZ7KC3uOzCbuwMgTvJoNb98qaB9-QGabw/latest.tar.gz",
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.js"
+  }
+}
