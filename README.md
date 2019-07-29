@@ -10,15 +10,7 @@ This example shows how to integrate [PSPDFKit for Web](https://pspdfkit.com/web/
 
 ## Getting Started
 
-Install the `pspdfkit` npm package using the NPM_KEY provided with your license. Following the link from the email you received, you should be able to retrieve it [here](https://pspdfkit.com/guides/web/current/standalone/adding-to-your-project).
-
-```bash
-npm install --save https://customers.pspdfkit.com/npm/YOUR_NPM_KEY_GOES_HERE/latest.tar.gz
-```
-
-This example does not use any other dependency unless you want to use the helper script `scripts/copy-pspdfkit-files.js`, which uses the `ncp` package to copy the PSPDFKit for Web files onto the example directory.
-
-To install it (the dependency is already included in `package.json`):
+Install the dependencies via npm:
 
 ```bash
 npm install
